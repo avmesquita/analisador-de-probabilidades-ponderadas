@@ -1,0 +1,25 @@
+```gitignore
+# Ignorar arquivos do ambiente virtual (obrigatório após usar 'python -m venv .')
+# Linux/Mac
+/bin/
+/include/
+/lib/
+/pyvenv.cfg
+# Windows
+/Scripts/
+/Lib/
+/Include/
+
+# Ignorar arquivos de cache e compilação do Python
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Ignorar o ambiente virtual caso o nome fosse 'venv' (padrão comum)
+# venv/
+
+# Ignorar logs e configurações locais
+*.log
+.DS_Store # macOS
+Thumbs.db # Windows
